@@ -13,3 +13,4 @@ end
 source 'http://10.40.10.3:9292'
 
 gem 'monkey-hash'
+gem 'cfgstore'

@@ -9,4 +9,7 @@ Gem::Specification.new do |lib|
   lib.email         = 'dimitri@pekarovsky.name'
   lib.licenses      = ['GPL-2.0']
   lib.homepage      = 'https://gitlab.sudo.su/amqp-lib/various-additions'
+
+  lib.add_runtime_dependency 'monkey-hash'
+  lib.add_runtime_dependency 'cfgstore'
 end
