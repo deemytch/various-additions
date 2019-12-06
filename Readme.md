@@ -5,3 +5,13 @@
 ## QueueWithTimeout
 
 Queue, который ждёт таймаута.
+
+## Checksum
+
+* #inn?( String )
+    
+  Проверка корректности ИНН
+
+* okpo?( String )
+
+  Проверка правильности ОКПО
