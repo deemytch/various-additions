@@ -1,5 +1,4 @@
-require 'queue'
-require 'monkey-patches'
+require 'monkey-hash'
 
 # Ждём сообщения в очередь, при наступлении таймаута (если указан) вкидываем nil.
 
