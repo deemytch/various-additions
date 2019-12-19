@@ -40,12 +40,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cfgstore
-  irb
-  monkey-hash
-  pry
-  pry-byebug
-  rspec
+  cfgstore!
+  irb!
+  monkey-hash!
+  pry!
+  pry-byebug!
+  rspec!
 
 BUNDLED WITH
-   2.0.2
+   2.1.1
