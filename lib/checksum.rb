@@ -39,4 +39,17 @@ module Checksum
       return ( text[-1].to_i == n1 )
     end
   end
+
+  def addr_or_name?( n )
+    n =~ /\W{4,}/ && n.length > 10
+  end
+
+  def ogrn?( n )
+    text = n.to_s.freeze
+    return false unless [13,15].include?( text.length )
+    z = 1
+    ctrl = text.split('')[0..-2].reduce(0){ |sum,x| z *= -1; sum + z * x.to_i }
+    ctrl = ctrl.to_s[-1].to_i if ctrl.abs > 9
+    text[-1].to_i == ctrl % (text.length - 2)
+  end
 end
