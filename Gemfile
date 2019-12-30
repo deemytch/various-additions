@@ -1,5 +1,8 @@
 source 'https://rubygems.org' do
 
+  gem 'sequel'
+  gem 'pg'
+
   group :test, :development do
     gem 'pry-byebug'
     gem 'pry'
