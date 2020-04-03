@@ -3,6 +3,9 @@ source 'https://rubygems.org' do
   gem 'sequel'
   gem 'pg'
 
+  gem 'monkey-hash'
+  gem 'cfgstore'
+
   group :test, :development do
     gem 'pry-byebug'
     gem 'pry'
@@ -12,12 +15,5 @@ source 'https://rubygems.org' do
   group :test do
     gem 'rspec'
   end
-
-end
-
-source 'http://10.40.10.3:9292' do
-
-  gem 'monkey-hash'
-  gem 'cfgstore'
 
 end
