@@ -28,11 +28,11 @@ Queue, который ждёт таймаута.
 
 For checking the list of timeouts.
 
-Argument `models` could be any database model, that supports `created_at` method, or Date, DateTime or Integer as unix time.
+Argument `models` could be the list of any database model, that supports `created_at` method, or Date, DateTime or Integer as unix time in any order.
 
 Returns boolean.
 
-* Any of models is reached timeout?
+* Any of models was reached timeout?
 
         tmout_any?( tlast, *models )
 
