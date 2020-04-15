@@ -6,9 +6,9 @@ Gem::Specification.new do |lib|
   lib.files         = Dir[ 'lib/*rb' ]
   lib.require_paths = %w[ lib ]
   lib.author        = 'deemytch'
-  lib.email         = 'dimitri@pekarovsky.name'
+  lib.email         = 'aspamkiller@yandex.ru'
   lib.license       = 'GPL-2.0'
-  lib.homepage      = 'https://gitlab.sudo.su/amqp-lib/various-additions'
+  lib.homepage      = 'https://github.com/deemytch/various-additions'
 
   lib.add_runtime_dependency 'monkey-hash'
   lib.add_runtime_dependency 'cfgstore'
