@@ -1,6 +1,6 @@
 Gem::Specification.new do |lib|
   lib.name          = 'various-additions'
-  lib.version       = '0.3.1'
+  lib.version       = '0.3.2'
   lib.date          = '2020-04-15'
   lib.summary       = 'Дополнения и полезные утилиты, которые не вошли в monkey-hash'
   lib.files         = Dir[ 'lib/*rb' ]
